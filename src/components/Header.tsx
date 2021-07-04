@@ -16,8 +16,6 @@ import {
 export function Header() {
   return (
     <div>
-      <h1 className="text-6xl">Header</h1>
-
       {/**Left */}
       <div className="flex items-center">
         <Image 
@@ -27,7 +25,7 @@ export function Header() {
           width={40}
           layout="fixed"
         />
-        <div className="flex ml-2 items-center rounded-full">
+        <div className="flex ml-2 items-center rounded-full bg-gray-100">
           <SearchIcon className="h-6" />
           <input type="text" placeholder="Search Facebook" />
         </div>
